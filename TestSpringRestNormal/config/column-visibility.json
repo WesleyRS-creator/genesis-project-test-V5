@@ -1,0 +1,35 @@
+{
+"adresse": {
+    "list": ["id", "idpersonnePersonne", "latitude", "codePostal", "ville", "rue"],
+    "detail": ["id", "idpersonnePersonne", "latitude", "codePostal", "ville", "rue"]
+  },
+"participer": {
+    "list": ["id", "idpersonnePersonne", "idprojetProjet", "dateInscription", "roleDansProjet"],
+    "detail": ["id", "idpersonnePersonne", "idprojetProjet", "dateInscription", "roleDansProjet"]
+  },
+"passeport": {
+    "list": ["dateExpiration", "id", "idpersonnePersonne", "numero"],
+    "detail": ["dateExpiration", "id", "idpersonnePersonne", "numero"]
+  },
+"personne": {
+    "list": ["dateNaissance", "id", "numeroSs", "nom", "prenom", "biographie"],
+    "detail": ["dateNaissance", "id", "numeroSs", "nom", "prenom", "biographie"]
+  },
+"projet": {
+    "list": ["budgetEstime", "dateDebut", "id", "nomProjet"],
+    "detail": ["budgetEstime", "dateDebut", "id", "nomProjet"]
+  },
+"v_fiche_complete_personne": {
+    "list": ["idPersonne", "nom", "prenom", "dateNaissance", "age", "biographie", "numeroSs", "numeroPasseport", "dateExpiration", "statutPasseport", "nombreAdresses", "villePrincipale", "nombreProjets"],
+    "detail": ["idPersonne", "nom", "prenom", "dateNaissance", "age", "biographie", "numeroSs", "numeroPasseport", "dateExpiration", "statutPasseport", "nombreAdresses", "villePrincipale", "nombreProjets"]
+  },
+"v_projets_et_equipes": {
+    "list": ["idProjet", "nomProjet", "dateDebut", "budgetEstime", "dureeJours", "nombreParticipants", "budgetParParticipant", "listeEquipe", "rolesDistribues", "derniereInscription"],
+    "detail": ["idProjet", "nomProjet", "dateDebut", "budgetEstime", "dureeJours", "nombreParticipants", "budgetParParticipant", "listeEquipe", "rolesDistribues", "derniereInscription"]
+  },
+"v_synthetise_global": {
+    "list": ["idPersonne", "nomComplet", "trancheAge", "totalParticipations", "rolePrincipal", "budgetMoyenProjets", "budgetGlobalMoyen", "positionBudget", "nombreVilles", "latitudeMoyenne"],
+    "detail": ["idPersonne", "nomComplet", "trancheAge", "totalParticipations", "rolePrincipal", "budgetMoyenProjets", "budgetGlobalMoyen", "positionBudget", "nombreVilles", "latitudeMoyenne"]
+  }
+
+}

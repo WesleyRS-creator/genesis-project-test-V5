@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.6</version>
+        <relativePath/>
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>testSpringRestNormal</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>testSpringRestNormal</name>
+    <description>Ce projet vise à développer une plateforme SaaS enterprise de gestion de ressources et de planification de projets, conçue pour optimiser la collaboration inter-équipes au sein des grandes organisations internationales. L'application offrira un tableau de bord centralisé et intuitif, permettant aux chefs de projet de suivre en temps réel l'avancement des tâches, d'allouer les ressources humaines et matérielles de manière optimale, et de générer des rapports analytiques détaillés et exportables. Les fonctionnalités principales incluent la gestion agile des workflows complexes, l'intégration native et sécurisée avec des outils de communication tiers (tels que Slack, Microsoft Teams et Jira), ainsi qu'un module avancé de contrôle d'accès basé sur les rôles (RBAC) pour garantir la confidentialité absolue des données sensibles. L'architecture technique repose sur une approche microservices moderne, assurant une haute disponibilité, une scalabilité horizontale sans friction et une maintenance simplifiée. L'interface utilisateur sera développée avec un framework frontend réactif pour garantir une expérience fluide, responsive et accessible sur tous les appareils. Ce système permettra aux organisations de réduire leurs délais de livraison de 30 %, d'améliorer significativement la transparence opérationnelle globale, et de s'adapter facilement aux futures évolutions métier ainsi qu'aux normes de conformité réglementaire en vigueur.</description>
+    <url/>
+    <licenses>
+        <license/>
+    </licenses>
+    <developers>
+        <developer/>
+    </developers>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
+    <properties>
+        <java.version>17</java.version>
+        
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.hypersistence</groupId>
+            <artifactId>hypersistence-utils-hibernate-63</artifactId>
+            <version>3.9.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.11.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+        </dependency>
+
+        
+    </dependencies>
+        
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
